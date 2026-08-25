@@ -14,7 +14,7 @@ O modelo foi submetido oficialmente à competição Titanic no Kaggle.
 | Melhor score obtido | **0.76555** |
 | Versão da submissão | V2 |
 
-Esse resultado corresponde a uma acurácia aproximada de **76,56%** na avaliação realizada pelo Kaggle.
+O resultado corresponde a aproximadamente **76,56% de acertos** na avaliação realizada pelo Kaggle.
 
 ## Competição
 
@@ -22,7 +22,7 @@ Esse resultado corresponde a uma acurácia aproximada de **76,56%** na avaliaç�
 
 [Kaggle - Titanic](https://www.kaggle.com/competitions/titanic)
 
-A competição propõe um problema clássico de Machine Learning: utilizar os dados conhecidos dos passageiros do Titanic para prever quais deles sobreviveram ao desastre.
+A competição propõe um problema clássico de Machine Learning: utilizar informações conhecidas sobre os passageiros do Titanic para prever quais deles sobreviveram ao desastre.
 
 ## Objetivo
 
@@ -41,7 +41,7 @@ As bases utilizadas foram disponibilizadas pelo próprio Kaggle e estão armazen
 
 - `train.csv` - conjunto de dados utilizado para análise e treinamento dos modelos
 - `test.csv` - conjunto de dados utilizado para gerar as previsões finais
-- `gender_submission.csv` - exemplo de submissão disponibilizado pelo Kaggle
+- `gender_submission.csv` - exemplo de arquivo de submissão disponibilizado pelo Kaggle
 
 ### Principais variáveis
 
@@ -89,11 +89,11 @@ Foram utilizados e comparados modelos de classificação para avaliar diferentes
 
 A Regressão Logística foi utilizada como um dos modelos de classificação para estimar a probabilidade de sobrevivência dos passageiros.
 
-É um algoritmo bastante utilizado como modelo de referência em problemas de classificação binária.
+É um algoritmo amplamente utilizado como modelo de referência em problemas de classificação binária.
 
 ### Random Forest
 
-Também foi utilizado o algoritmo **Random Forest**, que combina diversas árvores de decisão para produzir as previsões.
+Também foi utilizado o algoritmo **Random Forest**, que combina diversas árvores de decisão para gerar previsões.
 
 A comparação entre os modelos permitiu avaliar qual abordagem apresentava melhor desempenho antes da geração da submissão final.
 
@@ -109,9 +109,20 @@ A comparação entre os modelos permitiu avaliar qual abordagem apresentava melh
 - Git
 - GitHub
 
+## Resultado no Kaggle
+
+O modelo foi submetido oficialmente à competição **Titanic - Machine Learning from Disaster**, da plataforma Kaggle.
+
+**Score obtido no Kaggle: 0.76555**
+
+Esse resultado corresponde a aproximadamente **76,56% de acertos** na avaliação realizada pela plataforma.
+
+A competição pode ser acessada pelo link:
+
+[Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic)
+
 ## Estrutura do repositório
 
-```text
 CompeticaoKaggle_Titanic_ModelodePrevisao/
 │
 ├── BaseDadosTitanic/
@@ -122,40 +133,3 @@ CompeticaoKaggle_Titanic_ModelodePrevisao/
 ├── competicaotitanic.ipynb
 │
 └── README.md
-
-## Notebook
-
-Todo o processo de análise, preparação dos dados, treinamento dos modelos e geração das previsões está documentado no arquivo:
-
-competicaotitanic.ipynb
-
-## Conhecimentos aplicados
-
-## Durante o desenvolvimento do projeto foram aplicados conceitos de:
-
-Análise Exploratória de Dados
-limpeza e tratamento de dados
-tratamento de valores ausentes
-preparação de variáveis
-seleção de atributos
-classificação binária
-treinamento de modelos de Machine Learning
-validação de modelos
-comparação de algoritmos
-geração de previsões
-avaliação de desempenho
-criação de arquivos para submissão
-utilização da plataforma Kaggle
-Resultado final
-
-O projeto resultou na construção de um pipeline completo, desde o carregamento e preparação dos dados até a geração das previsões e submissão do modelo em uma competição real de Machine Learning.
-
-## Score obtido no Kaggle: 0.76555
-
-## Autora
-
-Danielli Arcari
-
-Graduanda em Ciência da Computação com foco em Análise de Dados e Ciência de Dados.
-
-GitHub: danielli-arcari
