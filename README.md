@@ -122,3 +122,40 @@ CompeticaoKaggle_Titanic_ModelodePrevisao/
 ├── competicaotitanic.ipynb
 │
 └── README.md
+
+## Notebook
+
+Todo o processo de análise, preparação dos dados, treinamento dos modelos e geração das previsões está documentado no arquivo:
+
+competicaotitanic.ipynb
+
+## Conhecimentos aplicados
+
+## Durante o desenvolvimento do projeto foram aplicados conceitos de:
+
+Análise Exploratória de Dados
+limpeza e tratamento de dados
+tratamento de valores ausentes
+preparação de variáveis
+seleção de atributos
+classificação binária
+treinamento de modelos de Machine Learning
+validação de modelos
+comparação de algoritmos
+geração de previsões
+avaliação de desempenho
+criação de arquivos para submissão
+utilização da plataforma Kaggle
+Resultado final
+
+O projeto resultou na construção de um pipeline completo, desde o carregamento e preparação dos dados até a geração das previsões e submissão do modelo em uma competição real de Machine Learning.
+
+## Score obtido no Kaggle: 0.76555
+
+## Autora
+
+Danielli Arcari
+
+Graduanda em Ciência da Computação com foco em Análise de Dados e Ciência de Dados.
+
+GitHub: danielli-arcari
